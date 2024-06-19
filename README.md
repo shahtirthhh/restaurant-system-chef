@@ -1,70 +1,54 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Chef Module README.md
 
-## Available Scripts
+# 👨‍🍳 Restaurant System - Chef Module
 
-In the project directory, you can run:
+## Overview
 
-### `npm start`
+Welcome to the **Restaurant System Chef Module**! This module allows chefs to view and manage orders in real-time, marking them as prepared or served. It is built using **React**, **TailwindCSS**, **Socket.io**, and **Node.js** for efficient real-time updates.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+**Live Demo:** [Chef Module](https://restaurant-system-chef-module.netlify.app/)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Features
 
-### `npm test`
+- **Order View**: View all incoming orders in real-time.
+- **Update Order Status**: Mark orders as prepared or served.
+- **Real-time Updates**: Receive and send real-time updates on order statuses.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## How It Works
 
-### `npm run build`
+1. **Order Reception**: Orders placed by customers are received in real-time.
+2. **Order Management**: The chef can mark orders as prepared or served, notifying both the manager and the customer.
+3. **Real-time Notifications**: Updates on order statuses are sent and received via **Socket.io** to ensure smooth communication.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Technologies Used
+**React**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+**TailwindCSS**
 
-### `npm run eject`
+**Socket.io**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+**Node.js**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+**Mongodb**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Links to Other Modules
+**Manager Module**: [GitHub](https://github.com/shahtirthhh/restaurant-system-manager), [Live Demo](https://retaurant-system-manager-module.netlify.app/)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+**Customer Module**: [GitHub](https://github.com/shahtirthhh/restaurant-system-customer), [Live Demo](https://restaurant-system-customer-module.netlify.app/)
 
-## Learn More
+**Backend API**: [GitHub](https://github.com/shahtirthhh/restaurant-system-backend)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Contributors
+**Tirth Shah**
+      
+[**Devanshee Ramanuj**](https://github.com/ramanujdevanshee22)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Installation
 
-### Code Splitting
+To run this module locally:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/shahtirthhh/restaurant-system-chef.git
